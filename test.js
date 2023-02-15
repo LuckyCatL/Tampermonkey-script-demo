@@ -11,6 +11,5 @@
 
 (function() {
     'use strict';
-    console.log(document.querySelectorAll('.unable-reprint'))
-    console.log('hello')
+    console.log(HTMLAnchorElement)
 })();
