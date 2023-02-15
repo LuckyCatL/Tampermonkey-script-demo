@@ -6,6 +6,7 @@
 // @author       LuckyCat
 // @match        https://www.bilibili.com/read/*
 // @icon         https://www.bilibili.com/favicon.ico
+// @license      MIT
 // @grant        none
 // ==/UserScript==
 

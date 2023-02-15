@@ -7,6 +7,7 @@
 // @match        https://www.baidu.com/
 // @match        https://www.baidu.com/*
 // @icon         https://www.baidu.com/favicon.ico
+// @license      MIT
 // @grant        unsafeWindow
 // @grant        GM_addStyle
 // ==/UserScript==
