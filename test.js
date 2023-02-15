@@ -1,15 +1,18 @@
 // ==UserScript==
-// @name         测试
+// @name         bilibili专栏复制去除后缀
 // @namespace    http://luckycat.ink/
 // @version      0.1
-// @description  test
+// @description  bilibili专栏复制去除后缀
 // @author       LuckyCat
 // @match        https://www.bilibili.com/read/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=bilibili.com
+// @icon         https://www.bilibili.com/favicon.ico
 // @grant        none
 // ==/UserScript==
 
 (function() {
     'use strict';
-    console.log(HTMLAnchorElement)
+    let oldadd=EventTarget.prototype.addEventListener
+    EventTarget.prototype.addEventListener=function (a,b,c){
+        if(a=='copy') return;
+    }
 })();
